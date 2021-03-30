@@ -1,0 +1,11 @@
+minikube docker-env
+(To point your shell to minikube's docker-daemon, run:)
+
+kubectl create deployment kube-test --image=tesxt
+kubectl expose deployment kube-test --type=NodePort --port=8080
+
+Check:
+kubectl get svc kube-test
+kubectl get deploy kube-test -o wide
+kubectl get pods -l=app=kube-test
+minikube service kube-test
