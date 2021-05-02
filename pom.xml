@@ -110,6 +110,18 @@
     </repository>
 </distributionManagement>
 
+    
+<repositories>
+    <repository>
+        <id>id</id>
+        <name>name</name>
+        <layout>default</layout>
+        <url>url</url>
+    </repository>
+</repositories>
+    
+    
+    
     <build>
         <plugins>
             <plugin>
