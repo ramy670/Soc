@@ -102,7 +102,13 @@
 
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 
-
+<distributionManagement>
+    <repository>
+        <id>Ramy</id>
+        <name>TonDocker</name>
+        <url>http://localhost:8080/</url>
+    </repository>
+</distributionManagement>
 
     <build>
         <plugins>
