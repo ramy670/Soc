@@ -114,7 +114,7 @@
                     <server>tomcat</server>
                     <username>Username</username>
                     <password>12345</password>
-                    <path>/w</path>
+                    <path>/war</path>
                     <update>true</update>
                  </configuration>
             </plugin>
